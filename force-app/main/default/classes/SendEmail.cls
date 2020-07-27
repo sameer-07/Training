@@ -8,7 +8,7 @@ public class SendEmail {
      
         Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
         Messaging.EmailFileAttachment efa1 = new Messaging.EmailFileAttachment();
- efa1.setFileName('CandidateDetailPDF.pdf');
+ efa1.setFileName('sameer.pdf');
        efa1.setBody(b);
         String addresses;
         mail.setSubject( 'Congratulations!!! You are Hired.' +String.valueOf(DateTime.now()));

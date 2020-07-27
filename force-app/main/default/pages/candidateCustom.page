@@ -22,8 +22,8 @@
             <apex:inputField value="{!  candidate.Status__c}" id="status"/>
              <apex:inputField value="{!candidate.salary__c}" id="salary"/>
             <apex:inputField value="{!  candidate.Job__c}" id="job"/>
-        <apex:commandButton action="{!save}" value="Save" id="theButton"/>
-       <apex:commandButton action="{!edit}" value="Edit" />
+        <apex:commandButton action="{!save}" value="save" id="theButton"/>
+
   
 <script>
          function check(){

@@ -24,7 +24,7 @@ public class cuscandidate {
          ApexPages.addMessages(ex); 
             return null;
         }
-        PageReference redirectSuccess=new ApexPages.StandardController(candidate).view();
+        PageReference redirectSuccess=new PageReference('https://c.ap17.visual.force.com/apex/candidateCustom?core.apexpages.request.devconsole=1');
         return(redirectSuccess);
     }
 
